@@ -9,7 +9,7 @@ console.log("hitesh");
 let name ="bipin" // string datatypes
 let age = 18 // number
 let isLoggedIn = false //string
-
+/
 
 // number =>2 to power 53 range 
 // bigINT
