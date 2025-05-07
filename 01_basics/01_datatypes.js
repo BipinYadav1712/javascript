@@ -14,7 +14,7 @@ let isLoggedIn = false //string
 // number =>2 to power 53 range 
 // bigINT
 // string => ""
-// bbolean = 'true' or 'false'
+// boolean = 'true' or 'false'
 // null => stand alone value  ye ek object bhi hai
 // undefined =>
 // symbol => uniqueness
