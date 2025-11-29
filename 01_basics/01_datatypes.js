@@ -9,7 +9,6 @@ console.log("hitesh");
 let name ="bipin" // string datatypes
 let age = 18 // number
 let isLoggedIn = false //string
-/
 
 // number =>2 to power 53 range 
 // bigINT
@@ -19,9 +18,15 @@ let isLoggedIn = false //string
 // undefined =>
 // symbol => uniqueness
 // upar vale primitive data types
+console.log(name);
+console.log(age);
+console.log(isLoggedIn);
+
+console.log(typeof name);
+console.log(typeof(age));
+console.log(typeof(isLoggedIn));
+
 
 
 
 //object 
-
-console.log(typeof undefined)
