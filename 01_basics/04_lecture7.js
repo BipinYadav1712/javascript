@@ -11,7 +11,7 @@ let negvalue= -value
 
 let str1 ="hello"
 let str3 ="Bipin"
-let str2 =str1 +str3
+let str2 =str1 +" " +str3
 console.log(str2);
 
 console.log(1+3);
