@@ -1,0 +1,44 @@
+html {
+  margin: 0;
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid rgb(0, 0, 0) 2px;
+  display: inline-block;
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
+/* body{
+    background-color: rgb(3, 250, 250);
+    padding: 0px;
+    width: auto;
+}
+h1{
+color: black;
+}
+h2{
+color: black;
+} */
