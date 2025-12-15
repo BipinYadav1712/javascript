@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code || DOM </title>
+</head>
+<body>
+    <ul class="language">
+        <li>Javascript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Ruby</li>
+    </ul>
+</body>
+<script>
+function addLanguage(langName){
+const li = document.createElement('li')
+li.style.color ="orange"
+  
+li.innerHTML = `${langName}`
+document.querySelector('.language').appendChild(li)
+
+
+}
+addLanguage("c++")
+addLanguage("CHAI AUR CODE")
+ // edittttttttt
+
+ const edit = document.querySelector("li:nth-child(2)")
+edit.outerHTML ='<li>TYPEscipt</li>'
+// remove 
+const lastlang = document.querySelector('li:last-child')
+lastlang.remove()
+</script>
+</html>
