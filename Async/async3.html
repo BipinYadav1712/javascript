@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(0, 4, 4);">
+    <h1 style="color: aliceblue;">CHAI AUR JAVASCRIPT</h1>
+    <button id="start" style="background-color: aquamarine; color: brown;" border="1px solid black">START</button>
+    <button id="stop" style="background-color: aquamarine; color: brown;" border="1px solid black">STOP</button>
+</body>
+<script>
+    let intervalId;  // store interval id
+
+    function SayDate() {
+        console.log("BIPIN", Date.now());
+    }
+
+    document.getElementById("start").addEventListener("click", function () {
+        intervalId = setInterval(SayDate, 1000);
+    });
+
+    document.getElementById("stop").addEventListener("click", function () {
+        clearInterval(intervalId);
+    });
+
+</script>
+</html>
